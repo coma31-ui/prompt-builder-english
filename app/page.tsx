@@ -156,7 +156,7 @@ export default function Page() {
   return (
     <div className="min-h-screen p-8 max-w-5xl mx-auto space-y-6">
       <motion.h1 initial={{opacity:0, y:8}} animate={{opacity:1, y:0}} className="text-3xl md:text-4xl font-extrabold tracking-tight text-slate-800">
-        Prompt Builder（日本語選択 → 英語の自然文を出力）
+        写真生成プロンプトビルダー for ChatGPT
       </motion.h1>
 
       <Card className="card">
